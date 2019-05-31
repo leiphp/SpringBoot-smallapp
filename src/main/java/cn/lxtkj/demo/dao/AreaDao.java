@@ -23,7 +23,7 @@ public interface AreaDao {
      * @param area
      * @return
      */
-    int inserArea(Area area);
+    int insertArea(Area area);
 
     /**
      * 更新区域信息
@@ -34,8 +34,8 @@ public interface AreaDao {
 
     /**
      * 删除区域信息
-     * @param area
+     * @param areaId
      * @return
      */
-    int deleterArea(Area area);
+    int deleteArea(int areaId);
 }
