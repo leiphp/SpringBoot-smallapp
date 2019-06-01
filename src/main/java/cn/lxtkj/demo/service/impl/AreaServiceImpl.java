@@ -15,11 +15,13 @@ public class AreaServiceImpl implements AreaService {
     private AreaDao areaDao;
     @Override
     public List<Area> getAreaList() {
+
         return areaDao.queryArea();
     }
 
     @Override
     public Area getAreaById(int areaId) {
+        int a =1/0;
         return areaDao.queryAreaById(areaId);
     }
 
